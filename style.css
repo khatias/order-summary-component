@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #e0e8ff;
+    font-family: Red Hat Display, "sans-serif";
+    text-align: center;
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+  }
+  
+  .card {
+    width: 327px;
+    height: 567px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.1518);
+  }
+  
+  .hero-img {
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom:24px ;
+  }
+
+  .title {
+    font-family: Red Hat Display, "sans-serif";
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 29.11px;
+    color: #1f2e55;
+  }
+  
+  .description {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #717fa6;
+  }
+  
+  .price-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 279px;
+    height: 81px;
+    border-radius: 11px;
+    background: rgba(247, 249, 255, 1);
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .icon-and-price{
+    display:flex;
+    gap:20px;
+  }
+
+  h2{
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 18.52px;
+    color: rgba(31, 46, 85, 1);
+    padding-bottom: 3px;
+  }
+  
+  .price {
+    font-weight: 500;
+    font-weight: 500;
+    line-height: 19px;
+    color: #717fa6;
+  }
+  
+  .change{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    border: none;
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: rgba(56, 42, 225, 1);
+    background: none;
+    font-family: Red Hat Display;
+  }
+  
+  .payment-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .payment-button{
+    margin-top: 24px;
+    border-radius: 11px;
+    border: 0px;
+    padding: 15px 65px;
+    font-family: Red Hat Display, "sans-serif";
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    line-height: 19.85px;
+    background-color: #382ae1;
+    cursor: pointer;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.1903);
+  }
+  
+  .cancel-order-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+  
+  .cancel-button {
+    border: none;
+    font-family: Red Hat Display, "sans-serif";
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19.85px;
+    color: #717fa6;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    background: none;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    body{
+        background-image: url(images/pattern-background-desktop.svg);
+        background-size: contain;
+      
+    }
+    .card{
+    height: 697px;
+    width: 450px;
+    }
+    section{
+        padding-top: 45px;
+    }
+    .title{ 
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 37px;
+    }
+
+    .description{
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 48px;
+    padding-right: 48px;
+    }
+
+    .price-box{
+    height: 98px;
+    width: 354px;
+    padding-left: 24px;
+    padding-right: 24px;
+    }
+
+    h2{
+    font-size: 16px;
+    line-height: 21px;
+    padding-bottom: 6px;
+    }
+
+    .payment-button{
+    height: 50px;
+    width: 354px;
+    margin-top: 32px;
+    }
+    
+    .cancel-button{
+        margin-top: 32px;
+        margin-bottom: 48px;
+    }
+  }
