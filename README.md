@@ -26,8 +26,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL:https://github.com/khatias/order-summary-component
-- Live Site URL:https://khatias.github.io/order-summary-component/
+- Solution URL: [Solution URL here](https://github.com/khatias/order-summary-component)
+- Live Site URL: [Live site URL here](https://khatias.github.io/order-summary-component/)
 
 ## My process
 
